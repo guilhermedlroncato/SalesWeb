@@ -1,7 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "Sobre";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information.</p>
+<p>Desenvolvido por: @ViewData["Desenvolvedor"]</p>
+<adress>
+    <strong>Maiores Informações: </strong>
+    <a href="mailto:guilhermeroncato@gmail.com">@ViewData["Email"]</a>
+</adress>
